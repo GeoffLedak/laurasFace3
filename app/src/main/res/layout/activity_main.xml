@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I like tacos"
+ />
+
+    <TextView
+        android:id="@+id/changing_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This text will change"
+        android:textColor="#00FFFF"
+        />
+
+    <Button
+        android:id="@+id/changing_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Words are here"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/start_kitty_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click Here yo"/>
+
+    <Button
+        android:id="@+id/add_number_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add 5 to our number"/>
+
+    <TextView
+        android:id="@+id/add_number_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Numbers will appear here"/>
+
+
+
+</LinearLayout>
